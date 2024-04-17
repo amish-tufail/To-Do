@@ -15,6 +15,7 @@ struct To_DoApp: App {
         WindowGroup {
             NavigationStack {
                 ContentView()
+                    .navigationViewStyle(.stack) // For iPad
             }
             .environment(listViewModel)
         }

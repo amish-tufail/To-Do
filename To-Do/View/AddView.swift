@@ -20,7 +20,7 @@ struct AddView: View {
                 TextField("Type something here...", text: $text)
                     .padding(.horizontal)
                     .frame(height: 55.0)
-                    .background(.gray.opacity(0.25))
+                    .background(Color(UIColor.secondarySystemBackground))
                     .clipShape(.rect(cornerRadius: 10.0, style: .continuous))
                 Button {
                     saveButtonPressed()
